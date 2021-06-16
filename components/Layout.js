@@ -7,9 +7,10 @@ const Layout = ({children}) => (
             <title>
                 Note App
             </title>
-            <Navbar/>
-            {children}
         </Head>
+        <Navbar/>
+        {children}
+       
     </>
 )
 
